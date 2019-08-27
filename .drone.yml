@@ -23,7 +23,9 @@ steps:
       from_secret: DOCKER_PASSWORD
     repo: dafg/droneci-workshop
     tags:
+      - 1.1
       - latest
-    when:
-      branch:
-        - master
+    compress: true
+  when:
+    branch:
+      - master
