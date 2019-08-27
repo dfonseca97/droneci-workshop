@@ -26,6 +26,6 @@ steps:
       - 1.0
       - latest
     compress: true
-    when:
-      branch:
-        - master
+  when:
+    branch:
+      - master
