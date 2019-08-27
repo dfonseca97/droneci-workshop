@@ -37,7 +37,7 @@ steps:
     port: 25
     skip_verify: true
     from: pipeline@cloud.drone.io
-    recipients: [ dfonseca@eafit.edu.co, diego.fonseca@endava.com ]
+    recipients: [ diego.fonseca@endava.com ]
     when:
       status: [ changed, success ]
       
